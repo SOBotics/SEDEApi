@@ -12,7 +12,7 @@ The request is executed as a GET request to
  
     https://path.to.lambda/[site]/[idQuery]?queryParams
     
-with JWT api token in header name 'bearer' also ContentType='application/json' should be set. The result is return as a json array where every record as as attribute column name and as value the value of record.
+with JWT api token in header name `bearer` also `ContentType='application/json'` should be set. The result is return as a json array where every record as attribute has column name and as value the value of record.
 
 ### Example
 
