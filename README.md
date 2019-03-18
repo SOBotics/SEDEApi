@@ -1,6 +1,6 @@
 # SEDEApi
 
-AWS lambda to query SEDE (Stack Exchange Data Explorer), this library can also be used to directly access SEDE (get query result as cvs string and/or object)
+AWS lambda to query SEDE (Stack Exchange Data Explorer), this library can also be used to directly access SEDE (get query result as CSV string and/or object)
 
 The lambda gets from header an JWT api tooken that contains the login credentials, it logs in to SE and then execute the query returning result as json.
 
